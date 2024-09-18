@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     const intervalId = setInterval(() => {
       dispatch(fetchDushnilaStatus()); 
-    }, 60 * 100); // minute
+    }, 60 * 1000); // minute
 
     return () => {
       clearInterval(intervalId);
