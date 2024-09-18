@@ -1,0 +1,68 @@
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 24%);
+  align-content: center;
+  grid-template-areas:
+    "title title title title"
+    "status status paramsSec paramsSec"
+    "day-score logo paramsSec paramsSec";
+}
+
+
+@media (max-width: 3840px) {
+
+  .container {
+    grid-template-rows: 150px 40vh 40vh;
+    gap: 35px;
+  }
+}
+
+@media (max-width: 2560px) {
+
+  .container {
+    grid-template-rows: 100px 40vh 40vh;
+    gap: 20px;
+  }
+}
+
+
+@media (max-width: 1920px) {
+
+  .container {
+    grid-template-rows: 40px 40vh 40vh;
+    grid-template-columns: repeat(4, 20vw);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1366px) {
+
+  .container {
+    grid-template-rows: 40px 40vh 40vh;
+    grid-template-columns: repeat(4, 22vw);
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    grid-template-rows: 30px 40vh 40vh;
+    grid-template-columns: repeat(4, 22vw);
+  }
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 400px 400px 400px 400px;
+    grid-template-areas:
+      "title"
+      "status"
+      "paramsSec"
+      "day-score"
+      "logo";
+    gap: 0;
+
+  }
+}

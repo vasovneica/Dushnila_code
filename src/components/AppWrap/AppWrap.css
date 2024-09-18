@@ -1,0 +1,10 @@
+.app-wrap {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .app-wrap {
+      padding:0;
+    }
+} 

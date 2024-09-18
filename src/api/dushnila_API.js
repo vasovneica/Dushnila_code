@@ -1,0 +1,1 @@
+export const dushnilaAPI='http://dushnila.gooddelo.com/data';

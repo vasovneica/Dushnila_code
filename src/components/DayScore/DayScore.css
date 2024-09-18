@@ -1,0 +1,84 @@
+.day-score-div {
+    grid-area: day-score;
+    background-color: black;
+    border-radius: 20px;
+    padding: 1rem;
+    line-height: 250%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.day-score {
+    margin: 0.5rem;
+    text-align: left;
+
+    font-weight: 500;
+    color: #fff;
+}
+
+
+@media (max-width: 3840px) {
+    
+    .day-score-div {
+        padding: 3rem;
+
+    }
+
+    .day-score {
+        margin: 1.5rem;
+        font-size: 88px;
+        line-height: 100%;
+    }
+}
+
+@media (max-width: 2560px) {
+
+    .day-score-div {
+        padding: 2rem;
+
+    }
+
+    .day-score {
+        margin: 1rem;
+        font-size: 60px;
+        line-height: 100%;
+    }
+
+}
+
+
+@media (max-width: 1920px) {
+
+    .day-score-div {
+        padding: 1rem;
+
+    }
+
+    .day-score {
+        margin: 0.5rem;
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1366px) {
+
+    .day-score {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .day-score {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .day-score-div {
+        border-radius: 0;
+    }
+}

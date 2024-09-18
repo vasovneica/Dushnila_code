@@ -1,0 +1,64 @@
+.title {
+    grid-area: title;
+    margin: 1rem;
+
+    font-size: 37px;
+    letter-spacing: 1rem;
+    line-height: 100%;
+}
+
+@media (max-width: 3840px) {
+
+    .title {
+        margin: 1rem;
+
+        font-size: 88px;
+        letter-spacing: 2rem;
+        line-height: 160%;
+    }
+
+}
+
+@media (max-width: 2560px) {
+    .title {
+        font-size: 70px;
+        letter-spacing: 2rem;
+        line-height: 100%;
+    }
+}
+
+
+@media (max-width: 1920px) {
+    .title {
+        margin: 1rem;
+
+        font-size: 36px;
+        letter-spacing: 2rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .title {
+        margin: 1rem;
+
+        font-size: 28px;
+        letter-spacing: 2rem;
+        line-height: 130%;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .title {
+        line-height: 10%;
+        font-size: 26px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+
+}
