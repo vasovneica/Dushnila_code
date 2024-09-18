@@ -17,14 +17,14 @@ function App() {
 
   useEffect(() => {
     
-      dispatch(fetchDushnilaStatus());// 
+      dispatch(fetchDushnilaStatus());
 
   }, []);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       dispatch(fetchDushnilaStatus()); 
-    }, 60 * 500); 
+    }, 60 * 100); // minute
 
     return () => {
       clearInterval(intervalId);
