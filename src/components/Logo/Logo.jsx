@@ -6,7 +6,8 @@ import badLogo from '../../imgs/angry-panda.svg';
 export default function Logo({ status }) {
     return (
         <div className='logo-div'>
-            <img className='logo-img' src={status ? logo : badLogo} alt='logo' no-referrer='true' />
+            {status ? <img className='logo-img' src={logo} alt='logo' no-referrer='true' />
+            :<img className='logo-img' src={badLogo} alt='logo' no-referrer='true' />}
         </div>
     )
 }
