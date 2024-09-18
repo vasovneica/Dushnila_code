@@ -8,7 +8,6 @@ const TRIGGER_CO2 =800;
 
 export const fetchDushnilaStatus = createAsyncThunk('/dushnila/fetchDushnilaStatus', async () => {
     const { data } = await axios.get(dushnilaAPI);
-    console.log(data);
     return data;
 });
 
