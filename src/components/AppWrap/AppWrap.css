@@ -3,7 +3,7 @@
     padding: 1rem;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 768px) or (max-height: 640px)  {
     .app-wrap {
       padding:0;
     }
