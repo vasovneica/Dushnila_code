@@ -56,7 +56,14 @@
 
 }
 
-@media (max-width: 768px) or (max-height: 640px)  {
+@media (max-width: 768px) {
+    .title {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-height: 640px)  {
     .title {
         font-size: 24px;
     }
