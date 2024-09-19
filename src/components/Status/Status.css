@@ -105,7 +105,15 @@
 
 }
 
-@media (max-width: 768px) or (max-height: 640px)  {
+@media (max-width: 768px) {
+
+    .status-div {
+        border-radius: 0;
+    }
+
+}
+
+@media (max-height: 640px)  {
 
     .status-div {
         border-radius: 0;
