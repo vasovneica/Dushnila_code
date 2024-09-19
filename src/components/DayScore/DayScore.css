@@ -76,7 +76,14 @@
     }
 }
 
-@media (max-width: 768px) or (max-height: 640px)  {
+@media (max-width: 768px) {
+
+    .day-score-div {
+        border-radius: 0;
+    }
+}
+
+@media (max-height: 640px)  {
 
     .day-score-div {
         border-radius: 0;
